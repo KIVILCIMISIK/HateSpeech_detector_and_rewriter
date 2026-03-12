@@ -1,9 +1,9 @@
-Hate Speech Detection and Detoxification
+#Hate Speech Detection and Detoxification
 
 This project builds an NLP pipeline that detects hate speech and rewrites toxic sentences into neutral ones.
 It combines deep learning (BiLSTM + Attention) for classification and a Transformer (T5) model for text detoxification.
 
-Features
+###Features
 
 Hate speech detection using BiLSTM + Attention
 Word embeddings with FastText
