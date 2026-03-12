@@ -21,7 +21,9 @@ Input Sentence
 
 Datasets
 HateSpeechDatasetBalanced.csv
+
 s-nlp/ParaDetox
+
 textdetox/multilingual_paradetox
 
 Evaluation
