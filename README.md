@@ -6,10 +6,15 @@ It combines deep learning (BiLSTM + Attention) for classification and a Transfor
 Features
 
 Hate speech detection using BiLSTM + Attention
+
 Word embeddings with FastText
+
 SHAP explanations for model interpretability
+
 Sentence detoxification using T5 Transformer
+
 Simple Flask web interface for real-time prediction
+
 Baseline model using Logistic Regression
 
 Workflow
@@ -20,6 +25,7 @@ Input Sentence
 → Output shown to the user
 
 Datasets
+
 HateSpeechDatasetBalanced.csv
 
 s-nlp/ParaDetox
@@ -29,9 +35,17 @@ textdetox/multilingual_paradetox
 Evaluation
 
 Classification performance is evaluated using:
+
 Accuracy
-Precision / Recall / F1-score
+
+Precision
+
+Recall
+
+F1-score
+
 Confusion Matrix
 
 Text generation quality is evaluated using:
+
 ROUGE score
